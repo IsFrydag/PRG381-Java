@@ -12,6 +12,22 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+          <h1 id="h1">Welcome to BC Student Wellness Management System</h1>
+        
+        <div class="form">
+            <h2 id="h2">User Login</h2>
+                <form name="Login" action="login.jsp" method="POST">
+                
+                    <h3 id="h3">Email:</h3>
+                    <input type="text" name="txtEmail" value="" size="50" placeholder="Email" />
+         
+                    <h4 id="h4">Password:</h4>
+                    <input type="password" name="txtPassword" value="" size="50" placeholder="Password"/>
+                    
+                    <input type="submit" value="LOGIN" name="btnlogin" />
+                    
+                </form>
+        </div>
+
     </body>
 </html>
