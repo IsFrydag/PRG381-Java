@@ -12,7 +12,6 @@
         <title>Index Page</title>
         <link rel="stylesheet" type = "text/css" href="css/background.css"/>
     </head>
-    
     <body>
         <h1>Welcome to BC's Student Wellness Management!</h1>
         <div id="buttons">
