@@ -75,3 +75,77 @@ h3{
     
     
 }
+
+/*Login page*/
+/*Styling background*/
+body,html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial ;
+    background-image:url("../images/healthy-lifestyle-dumbbell-smart-watch-fruit.jpg") ;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+.login-container{
+  background: rgba(255, 255, 255,0.6);  
+  width: 70%;
+  padding:20px;
+  display:flex;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0,0.6);
+  
+  
+}
+
+.welcome{
+    flex: 1;
+    padding: 20px;
+    display:flex;
+    
+}
+
+.login{
+    flex:1;
+    background:rgba(255, 255, 255,0.6) ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.2);
+    text-align: center;
+}
+
+#Welcomeh1 {
+    color:Black;
+    font-size: 35px;
+    background-color:transparent;
+}
+
+input {
+    padding:10px;
+    font-size: 12px;
+    border: 2px ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width:90%;
+}
+
+#h2{
+    color:Black;
+    font-size: 35px; 
+}
+
+#button{
+     padding:10px;
+    font-size: 12px;
+    border: 2px ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width:30%;
+    background-color: #8ab098;
+    
+}
