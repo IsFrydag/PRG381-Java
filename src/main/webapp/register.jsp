@@ -4,7 +4,7 @@
     <head>
         
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>LOGIN</title>
+        <title>Register</title>
         
         <link rel="stylesheet" href="css/styles.css">
         
