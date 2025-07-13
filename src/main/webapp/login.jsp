@@ -20,30 +20,36 @@
                 
             <h2 id="h2">User Login</h2>
             
-                <form name="Login" action="login.jsp" method="POST">
+            <h1>Welcome to BC Student Wellness Management System</h1>
+                <h2>User Login</h2>
+                
+                <% if (session.getAttribute("loginMessage") != null) { %>
+                
+                    <p class="success"><%= session.getAttribute("loginMessage") %></p>
+                    <script>
+                        setTimeout(function() {
+                            window.location.href = "dashboard.jsp";
+                        }, 2000); // Redirect after 2 seconds
+                    </script>
+                <% } else if (request.getAttribute("message") != null) { %>
+                    <p class="error"><%= request.getAttribute("message") %></p>
+                    
+                <% } %>
+            
+                <form name="Login" action="LoginServlet" method="POST">
                     
                     <label for="email">Email:</label>
-                    <input id="email" type="text" name="txtEmail" value="" size="50" placeholder="Email" required />
+                    <input id="email" type="text" name="email" value="" size="50" placeholder="Email" required />
                     
                     <label for="password">Password:</label>
-                    <input id="password" type="password" name="txtPassword" value="" size="50" placeholder="Password" required/>
+                    <input id="password" type="password" name="password" value="" size="50" placeholder="Password" required/>
                     
                     <input type="submit" value="LOGIN" name="btnlogin" />
                     
                 </form>
         
             </div>
-            <%
             
-            //Checks if the form has been submitted before retrieving the values
-            if("POST".equalsIgnoreCase(request.getMethod())){
-            
-            //Retrieving values from input 
-            String email = request.getParameter("txtEmail");
-            String password = request.getParameter("txtPassword");
-            
-                }
-            %>
         </div>
     </body>
 </html>
