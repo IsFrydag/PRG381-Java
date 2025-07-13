@@ -7,10 +7,33 @@
         <link rel="stylesheet" href="css/background.css">
     </head>
     <body>
-        <div class="successBody">
+        
+        <div class="wrapper">
+            <div class="box">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
             
-            <h1>Registration Successful! 🎉</h1>
+            <div class="successBody">
+                <h1>Registration Successful! 🎉</h1>
+                <button onclick="window.location.href='index.jsp'">Go to Home</button>
+            </div>
             
-        </div>
+        </div>       
+        
+        
+        
     </body>
 </html>
