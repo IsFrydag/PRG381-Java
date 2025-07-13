@@ -23,6 +23,7 @@
             <h1>Welcome to BC Student Wellness Management System</h1>
                 <h2>User Login</h2>
                 
+                <!--error handling for login.Success redirect to dashboard otherwise error message -->
                 <% if (session.getAttribute("loginMessage") != null) { %>
                 
                     <p class="success"><%= session.getAttribute("loginMessage") %></p>
@@ -36,7 +37,7 @@
                     
                 <% } %>
             
-                <form name="Login" action="LoginServlet" method="POST">
+                <form name="Login" action="Loginservlet" method="POST">
                     
                     <label for="email">Email:</label>
                     <input id="email" type="text" name="email" value="" size="50" placeholder="Email" required />
