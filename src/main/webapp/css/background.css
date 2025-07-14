@@ -127,7 +127,7 @@ body{
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
-    color: black;
+    color: #414240;
     font-size: 60px;
     text-align: center;
     width: 90%;
@@ -159,6 +159,7 @@ body{
     width: 80%;
     max-width: 600px;
     border-radius: 15px;
+    margin-top: 10px;
 }
 .content h3{
     font-size: 1.5rem;
@@ -187,6 +188,7 @@ body{
     margin: 0 10px;
 }
 .button2 button{
+    margin-bottom: 20px;
     padding: 12px 24px;
     border: none;
     border-radius: 8px; 
@@ -200,6 +202,7 @@ body{
     transition: color 1.0s;
 }
 .button1 button{
+    margin-bottom: 20px;
     padding: 12px 24px;
     border: none;
     border-radius: 8px;
