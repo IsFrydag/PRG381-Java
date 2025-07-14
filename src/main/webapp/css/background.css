@@ -232,8 +232,24 @@ body{
     width: 100%;
 }
 .button1 button:hover,
-.button2 button:hover {
+.button2 button:hover,
+.logout-button{
     color: black;
+}
+.logout-button{
+     margin-bottom: 20px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 35px;
+    color: white;
+    margin-right: 200px;
+    transition: color 1.0s;
 }
 .footer {
     font-family: 'Poppins', sans-serif;
