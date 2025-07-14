@@ -35,15 +35,17 @@
                     <div class="button1">
                         <button onclick="window.location.href='login.jsp'">Login</button>
                     </div>
+                    
                     <div class="button2">
                         <button onclick="window.location.href='register.jsp'">Register</button>
                     </div>
+                    
                 </div>
             </div>
             <div class="content2">
                 <h3>Why is a Student's Health Important?</h3>
                 <div class="explain">
-                    <p>Student health is vital because it impacts learning, focus, and overall academic performance. When students are physically and mentally well, they're more likely to attend class, stay engaged, and succeed in their studies.</p>
+                    <p>Student health is very important because it impacts learning, focus, and the overall academic performance. When students are physically and mentally well, they're more likely to attend class, stay engaged, and succeed in their studies.</p>
                 </div>
             </div>    
             
