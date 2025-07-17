@@ -7,6 +7,7 @@
         <link rel="stylesheet" type = "text/css" href="css/background.css"/>
     </head>
     <body>
+        <!-- Wrapper for background css. Each div is a moving object. -->
         <div class="wrapper">
             <div class="box">
                 <div></div>
@@ -33,10 +34,12 @@
             <div class="content">
                 <div class="buttons">
                     <div class="button1">
+                        <!-- button to redirect to login page. -->
                         <button onclick="window.location.href='login.jsp'">Login</button>
                     </div>
                     
                     <div class="button2">
+                        <!-- button to redirect to registration page. -->
                         <button onclick="window.location.href='register.jsp'">Register</button>
                     </div>
                     

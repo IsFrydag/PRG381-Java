@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/background.css">
     </head>
     <body>
-        
+        <!-- Wrapper for background css. Each div is a moving object. -->
         <div class="wrapper">
             <div class="box">
               <div></div>
@@ -25,6 +25,8 @@
               <div></div>
               <div></div>
             </div>
+            
+            <!-- Simple page to signify that registration was a success -->
             
             <div class="successBody">
                 <h1>Registration Successful! 🎉</h1>

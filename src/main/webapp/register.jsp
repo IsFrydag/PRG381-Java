@@ -11,7 +11,7 @@
     </head>
     
     <body>
-        
+        <!-- Wrapper for background css. Each div is a moving object. -->
         <div class="wrapper">
             <div class="box">
               <div></div>
@@ -34,7 +34,7 @@
         <main>
             
             <div class ="regForm">
-                
+                <!-- Registration form -->
                 <form method="POST" action="RegisterServlet">
             
                     <label for="name">Name:</label><br>

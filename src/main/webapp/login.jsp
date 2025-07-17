@@ -10,6 +10,7 @@
     <body>
         
         <div class="wrapper">
+            /* Wrapper for background css. Each div is a moving object. */
             <div class="box">
                 <div></div>
                 <div></div>
@@ -37,20 +38,20 @@
 
                 <div class="login">
 
-                <h2 id="h2">User Login</h2>
+                    <h2 id="h2">User Login</h2>
 
-                <h1>Welcome to BC Student Wellness Management System</h1>
-                    <h2>User Login</h2>
-
-                    <!--error handling for login.Success redirect to dashboard otherwise error message -->
+                    <h1>Welcome to BC Student Wellness Management System</h1>
+                    <!-- error handling for login. Success redirect to dashboard otherwise error message -->
                     <% if (session.getAttribute("loginMessage") != null) { %>
 
                         <p class="success"><%= session.getAttribute("loginMessage") %></p>
+                        
                         <script>
                             setTimeout(function() {
                                 window.location.href = "dashboard.jsp";
                             }, 2000); // Redirect after 2 seconds
                         </script>
+                        
                     <% } else if (request.getAttribute("message") != null) { %>
                         <p class="error"><%= request.getAttribute("message") %></p>
 
