@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
+//goal of servlet is to log users in or outß
 import java.io.IOException; // Handles input/output exceptions, used for servlet response operations
 import jakarta.servlet.ServletException; // Handles servlet-specific exceptions, used for servlet lifecycle errors
 import jakarta.servlet.annotation.WebServlet; // Provides annotation-based servlet configuration, used to map the servlet to a URL
